@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         //variables
-        int basicSeatCost, bags10kg, bags20kg, meals, reservedSeats;
+        int basicSeatCost, bags10kg, bags20kg, meals, reservedSeats, totalCost;
 
         //input
         Console.Write("Please enter seat cost > ");
@@ -24,10 +24,15 @@ class Program
         reservedSeats = int.Parse(Console.ReadLine());
 
         //calculations
+        totalCost = basicSeatCost + (bags10kg * 20) + (bags20kg * 30) + (meals * 10) + (reservedSeats * 5);
+
+
 
 
 
         //output
+
+        Console.WriteLine("Total price = {0}",totalCost);
 
         Console.ReadLine();
     }
