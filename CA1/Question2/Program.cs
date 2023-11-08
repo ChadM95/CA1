@@ -3,7 +3,8 @@
 class Program
 {
     static void Main(string[] args)
-    {
+    { 
+
         //variables
         int basicSeatCost, bags10kg, bags20kg, meals, reservedSeats, totalCost;
 
@@ -26,12 +27,7 @@ class Program
         //calculations
         totalCost = basicSeatCost + (bags10kg * 20) + (bags20kg * 30) + (meals * 10) + (reservedSeats * 5);
 
-
-
-
-
         //output
-
         Console.WriteLine("Total price = {0}",totalCost);
 
         Console.ReadLine();

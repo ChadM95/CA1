@@ -1,0 +1,15 @@
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/bin/Debug/net7.0/Question2
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/bin/Debug/net7.0/Question2.deps.json
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/bin/Debug/net7.0/Question2.runtimeconfig.json
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/bin/Debug/net7.0/Question2.dll
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/bin/Debug/net7.0/Question2.pdb
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.csproj.AssemblyReference.cache
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.AssemblyInfoInputs.cache
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.AssemblyInfo.cs
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.csproj.CoreCompileInputs.cache
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.dll
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/refint/Question2.dll
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.pdb
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/Question2.genruntimeconfig.cache
+/Users/Chad/ATU/OOSD1/CA1/CA1/Question2/obj/Debug/net7.0/ref/Question2.dll
