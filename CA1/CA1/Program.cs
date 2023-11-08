@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         string name;
-        int day, month, year;
+        int day, month, year, daysOld;        
 
         Console.Write("Enter your name > ");
         name = Console.ReadLine();
@@ -23,7 +23,9 @@ class Program
 
         DateTime DateOfBirth = new DateTime(year, month, day);
 
-        Console.WriteLine(DateOfBirth);
+        daysOld = (DateTime.Today - DateOfBirth).Days;
+
+        Console.WriteLine("Hello {0}, you are {1} days old.",name,daysOld);
 
         Console.ReadLine();
     }
