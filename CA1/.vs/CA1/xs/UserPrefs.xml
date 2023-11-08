@@ -1,21 +1,23 @@
-﻿<Properties StartupConfiguration="{D020CEDC-1F96-481A-A960-A3FD93B30504}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CA1/Program.cs">
+﻿<Properties StartupConfiguration="{2B5A4064-57B4-4BAF-9FF2-7C665014BCF2}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Question3/Program.cs">
     <Files>
-      <File FileName="CA1/Program.cs" Line="11" Column="1" />
+      <File FileName="CA1/Program.cs" Line="30" Column="28" />
+      <File FileName="Question2/Program.cs" Line="30" Column="17" />
+      <File FileName="Question3/Program.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CA1" expanded="True" />
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Question1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Question3 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Question3 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Question2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
