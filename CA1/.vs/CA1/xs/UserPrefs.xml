@@ -1,21 +1,24 @@
-﻿<Properties StartupConfiguration="{2B5A4064-57B4-4BAF-9FF2-7C665014BCF2}|Default">
+﻿<Properties StartupConfiguration="{B9368631-75DA-4D88-B53E-4FD4B3419D41}|Default">
   <MonoDevelop.Ide.ItemProperties.Question2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Question3 PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Question4 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Question4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Question1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Question3/Program.cs">
-    <Files>
-      <File FileName="CA1/Program.cs" Line="30" Column="28" />
-      <File FileName="Question2/Program.cs" Line="30" Column="17" />
-      <File FileName="Question3/Program.cs" Line="8" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="CA1">
+            <Node name="Question1">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
