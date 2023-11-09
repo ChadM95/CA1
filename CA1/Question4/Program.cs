@@ -5,14 +5,22 @@ class Program
     static void Main(string[] args)
     {
         string name;
-        int monthlySales, salesTarget;
+        int sales, salesTarget;
+        int salary = 24000;
+        double commission;
 
+        //inputs
         name = AskName();
-
-        monthlySales = AskSales();
-
+        sales = AskSales();
         salesTarget = AskSalesTarget();
 
+        //calculations
+        commission = CalculateCommission(sales, salesTarget);
+
+
+        //output
+        Console.WriteLine();
+        Console.WriteLine("Take home pay for");
 
         Console.ReadLine();
     }
@@ -34,5 +42,19 @@ class Program
         Console.Write("Enter monthly sales target > ");
         return int.Parse(Console.ReadLine());
     }
+
+    static double CalculateCommission(int sales, int salesTarget )
+    {
+        if (sales < salesTarget)
+        {
+            return (sales * 0.05);
+        }
+        else if (sales > salesTarget)
+        {
+            return (sales * 0.1);
+        }
+    }
+
+
 }
 
