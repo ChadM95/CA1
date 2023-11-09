@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
+        const int SALARY = 24000, HEALTH_INS = 50;
         string name;
         int sales, salesTarget;
-        int salary = 24000;
-        double commission;
+        double commission, gross, deductions, total;
 
         //inputs
         name = AskName();
@@ -16,12 +16,19 @@ class Program
 
         //calculations
         commission = CalculateCommission(sales, salesTarget);
+        gross = CalculateGross(SALARY, commission);
 
-
+        deductions = CalculateDeductions(gross, HEALTH_INS);
+        total = CalculateTotal(gross,deductions); 
+ 
         //output
         Console.WriteLine();
-        Console.WriteLine("Take home pay for");
-
+        Console.WriteLine($"Take home pay for {name}");
+        Console.WriteLine($"Monthly Sales           = {sales}");
+        Console.WriteLine($"Commission              = {commission}");
+        Console.WriteLine($"Gross Pay               = {gross}");
+        Console.WriteLine($"Deductions              = {deductions}");
+        Console.WriteLine($"Total                   = {total}");
         Console.ReadLine();
     }
 
@@ -49,12 +56,27 @@ class Program
         {
             return (sales * 0.05);
         }
-        else if (sales > salesTarget)
+        else if (sales >= salesTarget)
         {
             return (sales * 0.1);
         }
+        else { return 0; };
     }
 
+    static double CalculateGross(int annualSalary, double commission)
+    {
+        return (annualSalary / 12) + commission;
+    }
+
+    static double CalculateDeductions(double gross, int healthIns)
+    {
+        return (gross * 0.20) + (gross * 0.04) + (gross * 0.10) + healthIns;
+    }
+
+    static double CalculateTotal(double gross, double deductions)
+    {
+        return gross - deductions;
+    }
 
 }
 
