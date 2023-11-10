@@ -6,9 +6,14 @@ class Program
     {
         //instantiate product objects
 
-        Product P1 = new Product("Rip Curl Dawn Patrol", 1, 320, "Wetsuit");
-        Product P2 = new Product("Pyzel" , 2, 600, "Surfboard") ;
+        Product P1 = new Product("Rip Curl Dawn Patrol",1,320,"Wetsuit");
+        //Product P2 = new Product("Pyzel",2,600,"Surfboard") ;
 
+        //Use display method
+
+        P1.PrintProductDetails();
+        //P2.PrintProductDetails();
+        
         Console.ReadLine();
     }
 }
