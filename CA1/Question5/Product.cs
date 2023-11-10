@@ -6,11 +6,11 @@ namespace Question5
 		//properties
 		public string ProductName { get; set; }
         public int ProductID { get; set; }
-        public int Price { get; set; }
+        public double Price { get; set; }
         public string Category { get; set; }
 
 		//constructor
-        public Product(string productName, int productID, int price, string category)
+        public Product(string productName, int productID, double price, string category)
 		{
 			ProductName = productName;
 			ProductID = productID;
@@ -27,16 +27,15 @@ namespace Question5
             Console.WriteLine($"Product Category = " + Category);
         }
 
-		public double ApplyDiscount(double percentage)
-		{
-			double discount;
-			discount = Price * (percentage / 100); 
-			return Price - discount;
-		
-		}
+        public void ApplyDiscount(double percentage)
+        {
+            double discount;
+            discount = Price * (percentage / 100);
+            Price = Price - discount;
 
+        }
 
-		public override string ToString()
+        public override string ToString()
 		{
 			return $"{ProductName} {ProductID} {Price} {Category}";
         }
