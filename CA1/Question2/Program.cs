@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     { 
 
-        //variables
+        //lay out variables
         int basicSeatCost, bags10kg, bags20kg, meals, reservedSeats, totalCost;
 
         //input
