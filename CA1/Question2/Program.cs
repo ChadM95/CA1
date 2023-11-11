@@ -7,6 +7,7 @@ class Program
 
         //lay out variables
         int basicSeatCost, bags10kg, bags20kg, meals, reservedSeats, totalCost;
+        const int BAG10kg_COST = 20, BAG20kg_COST = 30, MEAL_COST = 10, RESERVED_SEAT = 5  ;
 
         //input
         Console.Write("Please enter seat cost > ");
@@ -25,7 +26,7 @@ class Program
         reservedSeats = int.Parse(Console.ReadLine());
 
         //calculations
-        totalCost = basicSeatCost + (bags10kg * 20) + (bags20kg * 30) + (meals * 10) + (reservedSeats * 5);
+        totalCost = basicSeatCost + (bags10kg * BAG10kg_COST) + (bags20kg * BAG20kg_COST) + (meals * MEAL_COST) + (reservedSeats * RESERVED_SEAT);
 
         //output
         Console.WriteLine("Total price = {0}",totalCost);
