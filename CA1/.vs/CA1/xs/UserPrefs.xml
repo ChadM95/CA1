@@ -1,20 +1,10 @@
 ﻿<Properties StartupConfiguration="{999DD865-1DE2-460E-B3DA-71C2E3B3E3FD}|Default">
   <MonoDevelop.Ide.ItemProperties.Question1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Question5 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Question5/Product.cs">
-    <Files>
-      <File FileName="Question5/Program.cs" Line="10" Column="11" />
-      <File FileName="Question5/Product.cs" Line="15" Column="4" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CA1">
-            <Node name="Question5">
-              <Node name="Product.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
